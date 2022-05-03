@@ -35,11 +35,13 @@ The simulator also takes care of <b>Sensor Fusion</b> and <b>Localization</b>, a
 
 ### Dependencies
 * You can download the Term3 Simulator which contains the Path Planning Project from the releases tab (https://github.com/udacity/self-driving-car-sim/releases)
+* Download the Unity Simulator to run the code.(original version: 5.5f1 Note: If you change the unity editor version you will have to manually upgrade the code)
 
 * cmake >= 3.5
 * make >= 4.1
 * gcc/g++ >= 5.4
 * [uWebSockets](https://github.com/uWebSockets/uWebSockets)
+* Run ./install-ubuntu.sh to install necessary files [Only ubuntu]
 
 ## Basic Build Instruction
 
