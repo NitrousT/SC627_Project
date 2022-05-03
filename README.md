@@ -41,7 +41,7 @@ The simulator also takes care of <b>Sensor Fusion</b> and <b>Localization</b>, a
 * gcc/g++ >= 5.4
 * [uWebSockets](https://github.com/uWebSockets/uWebSockets)
 
-## Basic Build Instructions
+## Basic Build Instruction
 
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
