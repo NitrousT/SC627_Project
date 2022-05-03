@@ -17,27 +17,8 @@ My project includes the following files:
 - [<b>Full_video.mp4</b> - Video showing the car driving on the highway for 10 miles without incidents]
 
 
-
-## 2. Note on naming convention
-In this document and in the code, the following naming convention is used to distinguis between the car are we are driving and the surrounding traffic:
-
-|Name|Refers to|
-|-|-|
-|car|The car we are driving|
-|object|The other vehicles on the road|
-
-The software is written using a functional design, not with classes. To group the functions that belong to each module, they are named with an common prefix, as follows:
-
-|Module| Function name prefix|
-|-|-|
-|Prediction| predict\___ |
-|Behavior Planner| behavior\___ |
-|Trajectory| trajectory\___ |
-
-
-## 3. Project Description
-The software modules in a self driving car and the data flow between them are:
-<div style="text-align:center"><img src="https://github.com/ArjaanBuijk/CarND-Path-Planning-Project/blob/master/images/modules.gif?raw=true" style="width:500px;"/></div>
+## 2. Project Description
+Felxible Unit-Astar, a theoretical Path Planning algorihtm was integrated with the Unity Simulator to show autonomous driving of a car on a highway.
 
 The responsibility of each module, and their inputs and outputs are summarized in this table.
 
