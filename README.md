@@ -20,18 +20,6 @@ My project includes the following files:
 ## 2. Project Description
 Felxible Unit-Astar, a theoretical Path Planning algorihtm was integrated with the Unity Simulator to show autonomous driving of a car on a highway.
 
-The responsibility of each module, and their inputs and outputs are summarized in this table (Software).
-
-|Module|Responsibility|Input|Output|
-|-|-|-|-|
-|Motion Control|Drive car along provided trajectory|Trajectory that car should follow|Actuator controls (Steering, Throttle, Brake,...)|
-|Sensor Fusion|Detect stationary and moving objects around car|Sensor data|Objects location & movement|
-|Localization|Determine location, orientation and speed of car|Maps, GPS & Sensor Fused data|Location, orientation and speed of car|
-|Prediction|Predict future location and motion of objects|Maps, Sensor Fusion & Localization|Trajectories of objects with associated probability|
-|Behavior Planner|Suggest maneuvers which are Feasible, Safe, Legal & Efficient|Maps, Route, Localization & Prediction|Suggested maneuvers|
-|Trajectory|For each suggested maneuver, define a trajectory and select the best trajectory that the car should follow|Maps, Localization, Prediction & Behavior |Trajectory that car must follow|
-
-
 In this project, a highway map is provided as waypoints. The highway is 6945.554m long and looks like this in global xy space:
 <div style="text-align:center"><img src="https://github.com/ArjaanBuijk/CarND-Path-Planning-Project/blob/master/images/highway-map-xy.gif?raw=true" style="width:500px;"/></div>
 
