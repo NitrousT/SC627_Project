@@ -1,13 +1,10 @@
-# Path Planning
-
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+# Path Planning (Fu-Star)
 
 ---
 
 The goals of this project are the following:
 
-* Implement Prediction, Behavior Planner and Trajectory modules for highway driving.
-* Use a Finite State Machine for the Behavior Planning.
+* Implement Trajectory modules for highway driving.
 * Test implementation by driving a car on a highway (in a simulator), maintaining a speed close to 50 mph and safely changing lanes to go around slower traffic.
 
 ---
@@ -16,10 +13,8 @@ The goals of this project are the following:
 
 My project includes the following files:
 
-- [<b>C++</b> - The source code](https://github.com/ArjaanBuijk/CarND-Path-Planning-Project/tree/master/src)
-- [<b>README.md</b> - A summary of the project](https://github.com/ArjaanBuijk/CarND-Path-Planning-Project/blob/master/README.md)
-- [<b>video_MPC.mp4</b> - Video showing the car driving on the highway for 10 miles without incidents](https://github.com/ArjaanBuijk/CarND-Path-Planning-Project/blob/master/videoProject.mp4)<br>(short version showing first 1.75 miles is embedded here as an animated gif)
-    ![](https://github.com/ArjaanBuijk/CarND-Path-Planning-Project/blob/master/images/videoProject.gif?raw=true)
+- [<b>README.md</b> - A summary of the project]
+- [<b>Full_video.mp4</b> - Video showing the car driving on the highway for 10 miles without incidents]
 
 
 
